@@ -15,7 +15,7 @@ Vagrant.configure(2) do |config|
   end
   config.vm.define "workstation" do |workstation|
     workstation.vm.box = "ubuntu/trusty64"
-    workstation.vm.network "private_network", ip: "192.168.0.252"
+    workstation.vm.network "private_network", ip: "192.168.0.250"
     workstation.vm.hostname = "workstation.example.com"
     workstation.vm.provision "shell", inline: $script
   end

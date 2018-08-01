@@ -10,3 +10,6 @@ chef-demo
 *.pub
 id_rsa
 .boto
+*.pem
+#ignore packages
+*.deb
